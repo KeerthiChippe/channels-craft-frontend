@@ -1,0 +1,19 @@
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .profile-pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }

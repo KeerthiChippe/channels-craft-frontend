@@ -1,0 +1,17 @@
+ /* img {
+    height: 400px;
+    width: 1000px;
+}  */
+
+
+/* Home.css */
+
+.carousel {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 1000px; /* Set a maximum width if necessary */
+    height: 400px; /* Adjust the height as needed */
+    margin: auto; /* Center the carousel on the page */
+  }
+  
+  
+

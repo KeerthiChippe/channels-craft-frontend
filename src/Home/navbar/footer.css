@@ -1,0 +1,28 @@
+.footer-container {
+    background-color: #070e16; /* Set your background color */
+    padding: 20px;
+  }
+  
+  .row-cols-md-3 .col {
+    margin-bottom: 10px;
+  }
+  
+  .text-body-secondary {
+    color: #4E6C84; /* Set your text color */
+  }
+  
+  .link-body-emphasis {
+    color: #007BFF; /* Set your link color */
+  }
+  
+  .link-body-emphasis:hover {
+    color: #0056b3; /* Set your link hover color */
+  }
+  
+  .nav-link {
+    color: #4E6C84; /* Set your nav link color */
+  }
+  
+  .nav-link:hover {
+    color: #0056b3; /* Set your nav link hover color */
+  }

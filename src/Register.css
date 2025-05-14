@@ -1,0 +1,30 @@
+ /* .register-container {
+    display: flex;
+     align-items: center; 
+     width:200px;
+    padding:20px;
+    height:min-content;
+    border-radius:5px;
+    justify-content: center; 
+     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2); 
+   } 
+   */
+  
+ 
+   .width{
+    width: unset !important ;
+   }
+   .user{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius:5px;
+    width:400px; 
+    padding:10px;
+    padding-left: 60px;
+    padding-right: -80px;
+    margin:40px;
+   }
+   
+   .error {
+    color: red;
+    font-weight: bold;
+  }

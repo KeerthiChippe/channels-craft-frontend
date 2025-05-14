@@ -1,0 +1,15 @@
+.order {
+    background-image: url('../../../public/order.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.dropdown {
+    color: grey;
+    font-weight: bold;
+}

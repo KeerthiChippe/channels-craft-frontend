@@ -1,0 +1,25 @@
+.order-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.order-details {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.order-details h1,
+.order-details h3,
+.order-details p,
+.order-details li div {
+    font-weight: bold;
+}

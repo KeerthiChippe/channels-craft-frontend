@@ -1,0 +1,91 @@
+/* .profile{
+    margin-bottom: 400px;
+    margin-right: 400px;
+} */
+
+/* styles.css */
+
+.small-cute-form {
+    background-color:rgb(119, 203, 239); /* Light gray background */
+    padding: 20px; /* Add some padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  
+    /* Optional: Adjust width */
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .small-cute-form label {
+    font-weight: bold;
+  }
+  
+  .small-cute-form input[type="text"],
+  .small-cute-form input[type="password"],
+  .small-cute-form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da; /* Gray border */
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  .small-cute-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #16cfc0; /* Bootstrap primary color */
+    color: rgb(132, 15, 15);
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .small-cute-form button[type="submit"]:hover {
+    background-color: #000102; /* Darker shade of primary color on hover */
+  }
+  
+
+  /* customerProfile.css */
+
+.customer-profile-container {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    flex-direction: column;
+    background-color: rgb(119, 203, 239); /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  
+  .profile-section,
+  .calendar-section {
+    width: 45%; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .packages-channels {
+    /* position: absolute;
+    bottom: 0px;
+    right: 60px;
+    z-index: 99;
+    width: 700px; */
+    position: absolute;
+  bottom: -328px;
+  left: 650px;
+  z-index: 99;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  }
+  
+ 

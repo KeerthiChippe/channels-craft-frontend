@@ -1,0 +1,30 @@
+    
+.wrapper {
+    background-image: url('../public/free15.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.login{
+    width:400px;
+    padding:40px;
+    height:min-content;
+    border-radius:5px;
+    color:black;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+     /* background-color:rgb(148, 148, 172);  */
+     background-color: rgba(171, 223, 249, 0.9);
+     font-weight: "bold";
+    
+}
+
+/* .forgot-password {
+    text-align: right;
+    margin-top: 20px;
+} */

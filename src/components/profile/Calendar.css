@@ -1,0 +1,35 @@
+/* .fc-day {
+    background-color: lightblue;
+  } */
+
+  /* Container styling */
+.calendar-container {
+  position: absolute;
+  top: 140px;
+  right: 80px;
+  z-index: 99;
+  width: 700px;
+  margin: auto;
+  background-color: #f8f9fa; /* Light grey background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px; /* Inner padding */
+}
+
+/* Calendar content styling */
+.calendar-content {
+  width: 100%;
+}
+
+/* Event styling */
+.custom-event {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Rounded event corners */
+  padding: 5px;
+}
+
+.custom-event:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
