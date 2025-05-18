@@ -84,7 +84,7 @@ const Calendar = ({ formattedDates }) => {
   // Format event title with ellipsis for names longer than 4 characters
   const formatEventTitle = (type, name) => {
     const prefix = type === "package" ? "📦" : "📺";
-    const shortName = name.length > 10 ? `${name.slice(0, 10)}...` : name;
+    const shortName = name.length > 6 ? `${name.slice(0, 6)}...` : name;
     return `${prefix} ${shortName}`;
   };
 
