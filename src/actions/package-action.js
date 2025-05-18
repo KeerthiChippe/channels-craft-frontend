@@ -1,6 +1,6 @@
 import axios from "../config/axios";
 
-export const startAddPackage = (data, resetForm, addPackage)=>{
+export const startAddPackage = (data, resetForm, addPackage,toggleModal)=>{
     return async(dispatch)=>{
         try{
             const response = await axios.post('/api/packages', data, {
@@ -11,9 +11,10 @@ export const startAddPackage = (data, resetForm, addPackage)=>{
             dispatch(addPackages(response.data))
             resetForm()
             addPackage()
+            toggleModal()
         }catch(e){
             console.log(e, "error")
-            dispatch(serverErrors(e.response.data.errors))
+            dispatch(serverErrors(e?.response?.data.errors))
         }
     }
 }

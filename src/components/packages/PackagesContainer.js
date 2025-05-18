@@ -11,8 +11,8 @@ const PackagesContainer = ()=>{
     })
 
     return(
-        <div>
-            <Row>
+    
+            <Row >
                 <Col md={6}> 
            <ListPackages/>
            </Col>
@@ -20,7 +20,7 @@ const PackagesContainer = ()=>{
            <ChannelsList/>
            </Col>
            </Row>
-        </div>
+      
     )
 }
 
