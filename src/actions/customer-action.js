@@ -1,5 +1,5 @@
 import axios from '../config/axios'
-
+import Swal from "sweetalert2"
 export const startAddCustomer = (data, resetForm) => {
     return async (dispatch) => {
         try {
@@ -11,6 +11,12 @@ export const startAddCustomer = (data, resetForm) => {
             console.log(response.data, 'customer')
             dispatch(addCustomer(response.data))
             resetForm()
+                  Swal.fire({
+                                    icon: 'success',
+                                    title: '🎉 Customer Added Successfully',
+                                    showConfirmButton: false,
+                                    timer: 3000
+                                })
         } catch (err) {
             dispatch(serverErrors(err.response.data.errors[0].msg))
         }

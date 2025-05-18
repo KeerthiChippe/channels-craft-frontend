@@ -44,15 +44,15 @@ export default function AdminNavbar() {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/operatorcontainer">Operator</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link" to="/packages">Create Package</Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <Link className="nav-link" to="/deletedPackages">Deleted Packages</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link" to="/channels">Create Channel</Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <Link className="nav-link" to="/packcha">Packages & Channels</Link>
                             </li>

@@ -1,35 +1,84 @@
-/* .fc-day {
-    background-color: lightblue;
-  } */
-
-  /* Container styling */
-.calendar-container {
-  position: absolute;
-  top: 140px;
-  right: 80px;
-  z-index: 99;
-  width: 700px;
-  margin: auto;
-  background-color: #f8f9fa; /* Light grey background */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  padding: 20px; /* Inner padding */
-}
-
-/* Calendar content styling */
+/* Calendar.css */
 .calendar-content {
-  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-/* Event styling */
 .custom-event {
-  background-color: #007bff; /* Bootstrap primary color */
-  color: white;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.event-package {
+  background: linear-gradient(45deg, #1890ff, #40a9ff);
   border: none;
-  border-radius: 5px; /* Rounded event corners */
-  padding: 5px;
+}
+
+.event-channel {
+  background: linear-gradient(45deg, #52c41a, #73d13d);
+  border: none;
 }
 
 .custom-event:hover {
-  background-color: #0056b3; /* Darker shade on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.fc .fc-button {
+  border-radius: 8px;
+  background: #1890ff;
+  border: none;
+  padding: 8px 16px;
+  font-weight: 500;
+}
+
+.fc .fc-button:hover {
+  background: #40a9ff;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 20px;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.fc .fc-daygrid-day {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.fc .fc-daygrid-day:hover {
+  background: #e6f0fa;
+}
+
+.fc .fc-daygrid-day-frame {
+  padding: 8px;
+}
+
+.fc .fc-daygrid-event {
+  margin: 4px 0;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(24, 144, 255, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(24, 144, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(24, 144, 255, 0);
+  }
 }
