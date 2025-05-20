@@ -19,7 +19,12 @@
 <p>Some of the screenshots related to the project are attached below to give a visual overview of the application's interface and functionality:</p>
 
 ![Image](https://github.com/user-attachments/assets/d1264133-c55e-4249-9d8a-c258dcf447e3)
+
 ![Image](https://github.com/user-attachments/assets/a4f89ef8-e374-4293-937c-6526657bbbdc)
+
+![Image](https://github.com/user-attachments/assets/1cdbdf7f-d559-421f-83e3-41347f533b2b)
+
+![Image](https://github.com/user-attachments/assets/b649e93d-dd4f-4a49-9c63-2042ec321234)
 
 
 <h2>Getting Started with Create React App</h2>
